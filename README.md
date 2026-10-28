@@ -23,6 +23,8 @@ Open http://localhost:5188. Use the sidebar to switch views:
 
 `npm run build` type-checks and builds the static site into `apps/room-viewer/dist`, and `npm run preview` serves that build.
 
+To publish it on GitHub Pages: in the repository's **Settings → Pages**, set **Source** to **GitHub Actions**, then run the **Deploy viewer** workflow from the Actions tab. The site appears at `https://<owner>.github.io/<repo>/`.
+
 ## What's modeled
 
 | Area | Contents |
